@@ -1,1 +1,4 @@
-user:$apr1$oetxar18$C7AM.l4zhJfn47dGRueIm/
+AuthType Basic
+AuthName "Geschützter Bereich - Bitte geben Sie ein Passwort ein!"
+AuthUserFile .htpasswd
+Require valid-user
